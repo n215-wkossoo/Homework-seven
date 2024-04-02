@@ -1,0 +1,203 @@
+.offers-section {
+
+    max-width: $content-width;
+    //padding: 5px;
+    //  background-color: bisque;
+    width: 90%;
+
+    margin: auto;
+    margin-top: 160px;
+
+    .offers-heading {
+        font-family: GillSansregular;
+        width: 290px;
+        height: 40px;
+        font-size: 30px;
+        margin-bottom: 35px;
+
+        .offer-line {
+            width: 165px;
+            border: 2px solid black;
+
+        }
+    }
+
+    .offers-fc {
+        display: flex;
+
+        justify-content: space-between;
+        max-width: 65%;
+        // background-color: orange;
+        margin-bottom: 60px;
+
+        .offers-img {
+            background-image: url(../images/special-offer-01.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 199px;
+            height: 287px;
+        }
+
+        .offer-img2 {
+            background-image: url(../images/special-offer-02.jpg);
+        }
+
+        .offers-textbox {
+            width: 55%;
+            // background-color: indigo;
+
+
+
+            .offers-header-fc {
+                display: flex;
+
+                margin-bottom: 21px;
+                // background-color: greenyellow;
+                max-width: 100%;
+
+
+                .offers-header-two {
+                    width: 306px;
+                    height: 40px;
+                    font-family: GillSansregular;
+                    font-size: 23px;
+
+
+
+
+                    .offer-line2 {
+                        width: 153px;
+                        border: 2px solid black;
+                    }
+
+                    .addon {
+                        width: 140px;
+                        border: 2px solid black;
+                    }
+
+                }
+
+                .pt2 {
+                    width: 341px;
+
+                }
+
+
+
+
+                .discount {
+                    width: 103px;
+                    height: 27px;
+                    font-family: GillSansregular;
+                    font-size: 20px;
+                    color: #FF7D38;
+                    // background-color: violet;
+
+                }
+            }
+
+
+
+            .offers-text {
+                max-width: 290px;
+                height: 131px;
+                font-family: GillSanslight;
+                font-size: 16px;
+                margin-bottom: 52px;
+            }
+
+            .site-button {
+                @include learn-button();
+                color: white;
+            }
+        }
+    }
+}
+
+
+@media all and (max-width: 800px) {
+    .offers-section {
+
+        max-width: $content-width;
+        //padding: 5px;
+        //background-color: bisque;
+        width: 98%;
+
+        margin: auto;
+        margin-top: 160px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+
+
+        .offers-heading {
+
+
+            .offer-line {}
+        }
+
+        .offers-fc {
+            display: flex;
+
+            justify-content: space-between;
+            max-width: 65%;
+            // background-color: orange;
+            margin-bottom: 60px;
+            flex-direction: column;
+
+            .offers-img {
+
+                margin-bottom: 15px;
+            }
+
+            .offer-img2 {}
+
+            .offers-textbox {
+                width: 55%;
+                // background-color: indigo;
+
+
+
+                .offers-header-fc {
+                    display: flex;
+
+                    margin-bottom: 21px;
+                    // background-color: greenyellow;
+                    max-width: 100%;
+
+
+                    .offers-header-two {
+
+                        margin-bottom: 15px;
+
+
+
+                        .offer-line2 {}
+
+                        .addon {}
+
+                    }
+
+                    .pt2 {}
+
+
+
+
+                    .discount {}
+                }
+
+
+
+                .offers-text {
+
+                    margin-bottom: 100px;
+                }
+
+                .site-button {}
+            }
+        }
+    }
+}

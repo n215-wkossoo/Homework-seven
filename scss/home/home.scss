@@ -1,0 +1,1039 @@
+.home {
+
+    .hero {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero.jpg);
+        width: 100%;
+        height: 400px;
+        // width: $home-content-width;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+
+    }
+
+    .callout-textbox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 170px;
+
+
+
+        .heading {
+            font-size: 60px;
+            color: $site-white;
+            font-family: ProximaNova;
+
+        }
+
+        .calloutText {
+            width: 416px;
+            height: 46px;
+            font-size: 20px;
+            font-family: GillSansItalic;
+            color: $site-white;
+            text-align: center;
+
+        }
+
+        .callout-button {
+            margin: 10px;
+            width: 123px;
+            height: 41px;
+            background-color: $site-blue;
+            text-align: center;
+            padding-top: 10px;
+            color: $site-white;
+        }
+
+    }
+
+    .specials {
+        max-width: $home-content-width;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        margin: -30px auto 0 auto;
+
+
+
+        .box1 {
+            // background-image: url(../images/tour-01.jpg), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-01.jpg);
+
+
+
+            width: 236px;
+            height: 304px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            .box1-text {
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                padding-top: 37px;
+
+                .tourisim {
+                    // width: 182px;
+                    font-size: 40px;
+
+                    font-family: GillSansregular;
+                    color: $site-white;
+                }
+
+
+                .price {
+                    // width: 152px;
+
+                    font-size: 30px;
+                    font-family: ProximaNova;
+                    ;
+                    color: $site-white;
+                    padding-bottom: 85px;
+                }
+
+                .button-box {
+                    width: 133px;
+                    height: 40px;
+                    background-color: $site-blue;
+
+                    border-radius: 20px;
+                    text-align: center;
+                    padding-top: 10px;
+
+                }
+
+                .button-box a {
+                    text-decoration: none;
+                    color: $site-white;
+                }
+            }
+        }
+
+        .box2 {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-02.jpg);
+            width: 236px;
+            height: 304px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+
+
+
+
+            .box1-text {
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                padding-top: 37px;
+
+                .tourisim {
+                    // width: 182px;
+                    font-size: 40px;
+
+                    font-family: GillSansregular;
+                    color: $site-white;
+                }
+
+
+                .price {
+                    // width: 152px;
+
+                    font-size: 30px;
+                    font-family: ProximaNova;
+                    ;
+                    color: $site-white;
+                    padding-bottom: 85px;
+                }
+
+                .button-box {
+                    width: 133px;
+                    height: 40px;
+                    background-color: $site-blue;
+
+                    border-radius: 20px;
+                    text-align: center;
+                    padding-top: 10px;
+
+                }
+
+                .button-box a {
+                    text-decoration: none;
+                    color: $site-white;
+                }
+            }
+        }
+
+
+
+        .box3 {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-03.jpg);
+            width: 236px;
+            height: 304px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+
+
+
+            .box1-text {
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                padding-top: 37px;
+
+                .tourisim {
+                    // width: 182px;
+                    font-size: 40px;
+                    font-family: GillSansregular;
+                    color: $site-white;
+                }
+
+
+                .price {
+                    // width: 152px;
+
+                    font-size: 30px;
+                    font-family: ProximaNova;
+                    ;
+                    color: $site-white;
+                    padding-bottom: 85px;
+                }
+
+                .button-box {
+                    width: 133px;
+                    height: 40px;
+                    background-color: $site-blue;
+
+                    border-radius: 20px;
+                    text-align: center;
+                    padding-top: 10px;
+
+                }
+
+                .button-box a {
+                    text-decoration: none;
+                    color: $site-white;
+                }
+            }
+        }
+    }
+
+    //Form
+    .form {
+
+        max-width: $home-content-width;
+        margin: 0 auto;
+        min-height: 200px;
+        // background-color: indigo;
+        // padding-left: 10px;
+
+
+        h2 {
+            padding-top: 40px;
+            font-size: 50px;
+            font-family: ProximaNova;
+        }
+
+        .form-basicinfo {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            max-width: 100%;
+            //  background-color: pink;
+
+
+            .name {
+                // display: block;
+                height: 58px;
+                width: 344px;
+                border: 2px solid;
+                border-color: $site-blue;
+                font-family: GillSansregular;
+                font-size: 18px;
+                margin-bottom: 20px;
+                // padding-left: 10px;
+            }
+
+            .email {
+                // display: block;
+                height: 58px;
+                width: 453px;
+                border: 2px solid;
+                border-color: $site-blue;
+                font-family: GillSansregular;
+                font-size: 18px;
+                margin-bottom: 20px;
+                // padding-left: 10px;
+            }
+
+
+            .country {
+                // display: block;
+                height: 58px;
+                width: 344px;
+                border: 2px solid;
+                border-color: $site-blue;
+                font-family: GillSansregular;
+                font-size: 18px;
+                margin-bottom: 20px;
+                //  padding-left: 10px;
+            }
+
+            .hotel {
+                // display: block;
+                height: 58px;
+                width: 453px;
+                border: 2px solid;
+                border-color: $site-blue;
+                font-family: GillSansregular;
+                font-size: 18px;
+                margin-bottom: 20px;
+                // padding-left: 10px;
+            }
+
+        }
+
+
+        .checkin-box {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .check {
+                // margin-right: 52px;
+
+
+            }
+
+            .checkin {
+                height: 58px;
+                width: 698px;
+                border: 2px solid;
+                border-color: $site-blue;
+                font-family: GillSansregular;
+                font-size: 18px;
+                margin-bottom: 20px;
+                position: relative;
+                // padding-left: 10px;
+            }
+
+            .cal-box {
+                background-image: url(../images/calendar.svg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 19px;
+                height: 19px;
+                position: absolute;
+                right: 20px;
+                bottom: 40px;
+
+            }
+
+
+        }
+
+
+        .checkin-box2 {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            position: relative;
+
+            .check2 {
+                // margin-right: 44px;
+            }
+
+            .checkin2 {
+                height: 58px;
+                width: 698px;
+                border: 2px solid;
+                border-color: $site-blue;
+                font-family: GillSansregular;
+                font-size: 18px;
+                margin-bottom: 20px;
+                // padding-left: 10px;
+            }
+
+            .cal-box {
+                background-image: url(../images/calendar.svg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 19px;
+                height: 19px;
+                position: absolute;
+                right: 20px;
+                bottom: 40px;
+
+            }
+
+
+        }
+
+
+
+        .accomendations-box {
+            // position: relative;
+
+
+            .accomendation-fc {
+
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 20px;
+
+                .input-group {
+                    position: relative;
+                }
+
+                .room2 {
+
+
+                    margin-right: 82px;
+                }
+
+
+                .room {
+
+                    height: 58px;
+                    width: 103px;
+                    border: 2px solid;
+                    border-color: $site-blue;
+                    font-family: GillSansregular;
+                    font-size: 18px;
+                    // margin-right: 35px;
+                    padding-left: 10px;
+
+                }
+            }
+
+
+            .arrow {
+                background-image: url(../images/down-arrow.svg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 19px;
+                height: 19px;
+                position: absolute;
+                right: 20px;
+                bottom: 20px;
+            }
+
+        }
+
+        .message-box {
+            max-width: 818px;
+
+            //background-color: greenyellow;
+
+            .message {
+
+                width: 100%;
+                height: 192px;
+                border: 2px solid;
+                border-color: $site-blue;
+                font-family: GillSansregular;
+                font-size: 18px;
+                padding-bottom: 110px;
+                padding-left: 20px;
+                margin-bottom: 20px;
+            }
+        }
+
+        .formsubmission-box {
+            max-width: 813px;
+            margin-bottom: 100px;
+
+            .form-sub {
+                width: 100%;
+                height: 60px;
+                background-color: $site-blue;
+                border-radius: 30px;
+                text-align: center;
+                padding-top: 30px;
+                font-size: 15px;
+                font-family: GillSansregular;
+                color: $site-white;
+                text-transform: uppercase;
+
+            }
+
+        }
+
+    }
+
+
+}
+
+@media all and (max-width: 800px) {
+    .home {
+
+
+
+        .hero {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero.jpg);
+            max-width: 100%;
+            height: 400px;
+
+
+        }
+
+        .callout-textbox {
+
+
+
+
+            .heading {
+                font-size: 30px;
+                color: $site-white;
+                font-family: ProximaNova;
+
+            }
+
+            .calloutText {
+                width: 400px;
+                height: 46px;
+                font-size: 15px;
+
+
+            }
+
+            .callout-button {
+                margin: 10px;
+                width: 100px;
+                height: 41px;
+                background-color: $site-blue;
+                text-align: center;
+                padding-top: 10px;
+                color: $site-white;
+            }
+
+        }
+
+
+
+        .specials {
+            max-width: $home-content-width;
+
+            // align-items: center;
+            // justify-content: space-between;
+            flex-direction: column;
+            flex-wrap: wrap;
+            margin: -30px auto 0 auto;
+            //  background-color: orange;
+
+
+
+
+
+            .box1 {
+                margin-bottom: 30px;
+
+                .box1-text {
+
+                    // display: flex;
+                    // align-items: center;
+                    // justify-content: center;
+                    // flex-direction: column;
+                    // padding-top: 37px;
+
+
+                    .tourisim {
+                        // width: 182px;
+                        // font-size: 60px;
+                        // font-family: ProximaNova;
+
+                        // color: $site-white;
+                    }
+
+
+                    .price {
+                        // width: 152px;
+
+                        // font-size: 30px;
+                        // font-family: ProximaNova;
+                        // ;
+                        // color: $site-white;
+                        // padding-bottom: 85px;
+                    }
+
+                    .button-box {
+                        // width: 133px;
+                        // height: 40px;
+                        // background-color: $site-blue;
+
+                        // border-radius: 20px;
+                        // text-align: center;
+                        // padding-top: 10px;
+
+                    }
+
+                    .button-box a {
+                        // text-decoration: none;
+                        // color: $site-white;
+                    }
+                }
+            }
+
+            .box2 {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-02.jpg);
+                width: 236px;
+                height: 304px;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin-bottom: 30px;
+
+
+
+
+                .box1-text {
+
+                    // display: flex;
+                    // align-items: center;
+                    // justify-content: center;
+                    // flex-direction: column;
+                    // padding-top: 37px;
+
+                    .tourisim {
+                        // width: 182px;
+                        // font-size: 60px;
+                        // font-family: ProximaNova;
+                        // ;
+                        // color: $site-white;
+                    }
+
+
+                    .price {
+                        // width: 152px;
+
+                        // font-size: 30px;
+                        // font-family: ProximaNova;
+                        // ;
+                        // color: $site-white;
+                        // padding-bottom: 85px;
+                    }
+
+                    .button-box {
+                        // width: 133px;
+                        // height: 40px;
+                        // background-color: $site-blue;
+
+                        // border-radius: 20px;
+                        // text-align: center;
+                        // padding-top: 10px;
+
+                    }
+
+                    .button-box a {
+                        //     text-decoration: none;
+                        //     color: $site-white;
+                    }
+                }
+            }
+
+
+
+            .box3 {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-03.jpg);
+                width: 236px;
+                height: 304px;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+
+                margin-bottom: 30px;
+
+
+                .box1-text {
+
+                    // display: flex;
+                    // align-items: center;
+                    // justify-content: center;
+                    // flex-direction: column;
+                    // padding-top: 37px;
+
+                    .tourisim {
+                        // // width: 182px;
+                        // font-size: 60px;
+                        // font-family: ProximaNova;
+                        // ;
+                        // color: $site-white;
+                    }
+
+
+                    .price {
+                        // width: 152px;
+
+                        //     font-size: 30px;
+                        //     font-family: ProximaNova;
+                        //     ;
+                        //     color: $site-white;
+                        //     padding-bottom: 85px;
+                    }
+
+                    .button-box {
+                        // width: 133px;
+                        // height: 40px;
+                        // background-color: $site-blue;
+
+                        // border-radius: 20px;
+                        // text-align: center;
+                        // padding-top: 10px;
+
+                    }
+
+                    .button-box a {
+                        // text-decoration: none;
+                        // color: $site-white;
+                    }
+                }
+            }
+        }
+
+
+
+
+
+
+
+        //   @media all and (max-width: 800px) {
+
+
+
+        .form {
+
+            // max-width: 100%;
+            // max-width: 850px;
+            margin: 0 auto;
+            //   min-height: 200px;
+            // background-color: indigo;
+            //padding: 20px;
+            width: 80%;
+
+
+
+
+            // display: flex;
+            // flex-direction: column;
+            // flex-wrap: wrap;
+            // justify-content: center;
+            //  margin: 0 auto;
+            // border: solid chartreuse 5px;
+
+            h2 {
+                padding-top: 40px;
+                font-size: 50px;
+                font-family: ProximaNova;
+            }
+
+            .form-basicinfo {
+                // display: flex;
+                // align-items: center;
+                // justify-content: center;
+
+                // //max-width: 600px;
+                // flex-direction: column;
+                // flex-wrap: wrap;
+                // // background-color: cadetblue;
+
+                // // padding-right: 300px;
+                // display: block;
+
+
+
+
+
+
+
+
+                .name {
+                    //display: block;
+                    height: 58px;
+                    width: 344px;
+                    border: 2px solid;
+                    border-color: $site-blue;
+                    font-family: GillSansregular;
+                    font-size: 18px;
+
+                    margin-bottom: 20px;
+                    padding-left: 2px;
+
+                }
+
+                .email {
+                    // display: block;
+                    // height: 58px;
+                    // width: 453px;
+                    border: 2px solid;
+                    border-color: $site-blue;
+                    font-family: GillSansregular;
+                    font-size: 18px;
+                    margin-bottom: 20px;
+
+                    padding-left: 10px;
+                }
+
+
+                .country {
+                    // display: block;
+                    // height: 58px;
+                    // width: 344px;
+                    border: 2px solid;
+                    border-color: $site-blue;
+                    font-family: GillSansregular;
+                    font-size: 18px;
+                    margin-bottom: 20px;
+
+                    padding-left: 10px;
+                }
+
+                .hotel {
+                    // display: block;
+                    // height: 58px;
+                    // width: 453px;
+                    border: 2px solid;
+                    border-color: $site-blue;
+                    font-family: GillSansregular;
+                    font-size: 18px;
+                    margin-bottom: 20px;
+
+                    padding-left: 10px;
+                }
+
+                .mobile {
+                    width: 100%;
+                    // background-color: indigo;
+                }
+
+            }
+
+
+            .checkin-box {
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+                // display: block;
+                //background-color: orange;
+
+
+                .check {
+                    //margin-left: 20px;
+                    width: 30%;
+
+
+
+                }
+
+                .checkin {
+                    //  height: 58px;
+                    // width: 698px;
+                    // width: 330px;
+                    border: 2px solid;
+                    border-color: $site-blue;
+                    font-family: GillSansregular;
+                    font-size: 18px;
+                    margin-bottom: 20px;
+                    position: relative;
+                    //  padding-left: 10px;
+                    // border: solid 1px red;
+
+                }
+
+                .cal-box {
+                    background-image: url(../images/calendar.svg);
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    width: 19px;
+                    height: 19px;
+                    position: absolute;
+                    right: 20px;
+                    bottom: 40px;
+
+                }
+
+
+            }
+
+
+            .checkin-box2 {
+                // display: flex;
+                // align-items: center;
+                // justify-content: space-between;
+                // display: block;
+                position: relative;
+
+                .check2 {
+                    // margin-right: 44px;
+                }
+
+                .checkin2 {
+                    // height: 58px;
+                    // width: 698px;
+                    //  width: 330px;
+                    border: 2px solid;
+                    border-color: $site-blue;
+                    font-family: GillSansregular;
+                    font-size: 18px;
+                    margin-bottom: 20px;
+                    //padding-left: 10px;
+                }
+
+                .cal-box {
+                    background-image: url(../images/calendar.svg);
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    width: 19px;
+                    height: 19px;
+                    position: absolute;
+                    right: 20px;
+                    bottom: 40px;
+
+                }
+
+
+            }
+
+
+
+            .accomendations-box {
+                // position: relative;
+                width: 100%;
+                //background-color: greenyellow;
+
+                .accomendation-fc {
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 20px;
+                    //background-color: indianred;
+                    width: 100%;
+
+
+
+                    .input-group {
+                        position: relative;
+                        margin-bottom: 20px;
+                        max-width: 100%;
+                        //background-color: orange;
+                    }
+
+                    .room2 {
+                        margin: 0;
+                        // margin-right: 82px;
+                        // width: 50%;
+                        max-width: 80px;
+                        height: 20px;
+                        //background-color: aqua;
+                        display: inline-block;
+                        font-size: 12px;
+                    }
+
+
+                    .room {
+                        width: 60%;
+                        height: 58px;
+
+
+                        border: 2px solid;
+                        border-color: $site-blue;
+                        font-family: GillSansregular;
+                        font-size: 18px;
+                        // margin-right: 35px;
+                        padding-left: 10px;
+                        // background-color: pink;
+                    }
+                }
+
+
+                .arrow {
+                    background-image: url(../images/down-arrow.svg);
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    width: 19px;
+                    height: 19px;
+                    position: absolute;
+                    // left: 110px;
+                    // bottom: 20px;
+                    right: 20%;
+                    top: 40%;
+                    // background-color: indigo;
+                }
+
+            }
+
+            .message-box {
+
+
+                .message {
+                    // height: 192px;
+                    // max-width: 818px;
+                    //max-width: 400px;
+                    border: 2px solid;
+                    border-color: $site-blue;
+                    font-family: GillSansregular;
+                    font-size: 18px;
+                    padding-bottom: 110px;
+                    padding-left: 20px;
+                    margin-bottom: 20px;
+                }
+            }
+
+            .formsubmission-box {
+                margin-bottom: 100px;
+
+                .form-sub {
+                    // width: 400px;
+                    // height: 60px;
+                    background-color: $site-blue;
+                    border-radius: 30px;
+                    text-align: center;
+                    padding-top: 30px;
+                    font-size: 15px;
+                    font-family: GillSansregular;
+                    color: $site-white;
+                    text-transform: uppercase;
+
+                }
+
+            }
+
+        }
+
+        // }
+
+
+    }
+
+
+
+
+
+}

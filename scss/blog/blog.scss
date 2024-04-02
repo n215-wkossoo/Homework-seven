@@ -1,0 +1,169 @@
+.blog-section {
+
+    max-width: $content-width;
+    margin: auto;
+    margin-top: 160px;
+    // background-color: chartreuse;
+    width: 98%;
+
+
+
+
+    .blog-header {
+        font-family: GillSansregular;
+        font-size: 30px;
+        width: 92px;
+        height: 40px;
+    }
+
+    .blog-line {
+        border: solid 2px black;
+        width: 106px;
+        margin-bottom: 31px;
+    }
+
+
+
+    .blog-fc {
+        max-width: 100%;
+        display: flex;
+
+        justify-content: space-between;
+        margin-bottom: 100px;
+        //  background-color: red;
+
+
+
+        .blog-cal-box {
+            width: 60px;
+            height: 60px;
+            background-color: $site-blue;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .blog-cal {
+                width: 26px;
+                height: 25px;
+                font-family: GillSansregular;
+                font-weight: bold;
+                font-size: 22px;
+                color: white;
+            }
+
+            .blog-cal2 {
+                width: 21px;
+                height: 14px;
+                font-family: GillSansregular;
+                font-weight: lighter;
+                font-size: 12px;
+                color: white;
+            }
+
+        }
+
+        .img-info-box {
+            //here is where I am at finins the img responsive.
+            width: 90%;
+
+            .blog-img {
+                max-width: 900px;
+                height: 259px;
+                background-image: url(../images/blog.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+
+                margin-bottom: 20px;
+                background-color: indianred;
+            }
+
+            .blog-text {
+                max-width: 245px;
+                height: 22px;
+                font-family: GillSansregular;
+                font-size: 15px;
+            }
+
+
+            .blog-text2 {
+                max-width: 380px;
+                height: 64px;
+                font-family: GillSansregular;
+                font-size: 13px;
+                color: $site-blue;
+            }
+
+
+        }
+    }
+
+
+
+
+}
+
+@media all and (max-width: 800px) {
+    .blog-section {
+
+        max-width: 95%;
+        margin: auto;
+        margin-top: 160px;
+        // background-color: chartreuse;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+
+
+
+        .blog-header {}
+
+        .blog-line {}
+
+
+
+        .blog-fc {
+            max-width: 100%;
+            display: flex;
+
+            justify-content: space-between;
+            margin-bottom: 100px;
+            //  background-color: red;
+            flex-direction: column;
+
+
+
+            .blog-cal-box {
+
+                margin-bottom: 15px;
+
+                .blog-cal {}
+
+                .blog-cal2 {}
+
+            }
+
+            .img-info-box {
+
+
+
+                .blog-img {}
+
+                .blog-text {}
+
+
+                .blog-text2 {}
+
+
+            }
+        }
+
+
+
+
+    }
+}
